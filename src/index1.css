@@ -1,0 +1,51 @@
+.menu_active{
+    font-size:bold;
+    border-bottom:1px solid #565387;
+}
+.btn-get-started
+{
+    position: absolute;
+    width: 184px;
+    height: 40px;
+    background:#FFFFFF;
+    mix-blend-mode: multiply;
+    border:2px solid #221EF4;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.btn-get-started:hover{
+    background-color:#3f3cf5;
+    color: white;
+}
+
+#header
+{
+    margin-top: 80px;
+}
+.header-img
+{
+    margin-top: 20px;
+}
+img:hover{
+    animation:shake 0.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes shake
+{
+    0% {transform:translate(1px,1px) rotate(0deg);}
+    10% {transform:translate(-1px,-2px) rotate(-1deg);}
+    20% {transform:translate(-3px,0px) rotate(1deg);}
+    30% {transform:translate(3px,2px) rotate(0deg);}
+    40% {transform:translate(1px,-1px) rotate(1deg);}
+    50% {transform:translate(-1px,2px) rotate(-1deg);}
+    60% {transform:translate(-3px,1px) rotate(0deg);}
+    70% {transform:translate(3px,1px) rotate(-1deg);}
+    80% {transform:translate(-1px,-1px) rotate(1deg);}
+    90% {transform:translate(1px,2px) rotate(0deg);}
+    100% {transform:translate(1px,-2px) rotate(-1deg);}
+   
+}
